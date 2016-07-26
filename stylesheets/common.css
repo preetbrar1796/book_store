@@ -1,0 +1,101 @@
+/*common css for all pages*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #192436;
+}
+
+.btn-add {
+    background-color: #c25439;
+}
+
+a {
+    color: #f37f30;
+}
+
+header {
+    background-color: #c25439;
+}
+
+.nav > li > a {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    line-height: inherit;
+}
+
+.nav > li > a:hover {
+    background-color: #192436;
+}
+
+div {
+    margin-bottom: 2em;
+}
+
+table {
+    text-transform: capitalize;
+}
+
+td:last-child {
+    text-transform: lowercase;
+}
+
+body {
+    color: white;
+    font-size: 16pt;
+    overflow: auto;
+}
+
+legend {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+#books {
+    font-size: 14pt;
+}
+
+.fa {
+    font-size: 1.2em;
+}
+
+hr {
+    border-color: white;
+}
+
+.navbar-toggle {
+    border-color: white;
+    float: left;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+#desc {
+    font-size: 18pt;
+    line-height: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12pt;
+        overflow: auto;
+    }
+
+    #books {
+        font-size: 10pt;
+    }
+
+    #desc {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+}
